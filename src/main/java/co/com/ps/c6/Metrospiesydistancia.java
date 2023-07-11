@@ -1,7 +1,7 @@
 package co.com.ps.c6;
 packege java*;
+import java.util.Scanner;
 public class Metrosapiesdistancia {
-    import java.util.Scanner;
     public class ConversorUnidades {
         public static void convertir (int gradosc) {
             int fharenheit = ((gradosc * 9) / 5 + (32));
@@ -11,15 +11,15 @@ public class Metrosapiesdistancia {
             Scanner scanner = new Scanner(System.in);
             int contador = 0;
 
-            String opcion;
+            char (op);
             do {
                 System.out.println(" ** Bienvenido **");
                 System.out.println();
                 System.out.println(" ** Escriba la opción que desea **");
                 System.out.println(" * Termica (Celcius a Fahrenheit) *");
                 System.out.println(" * Distancia (Metros a Pies)*");
-                opcion = scanner.nextLine();
-                switch (opcion) {
+                op = scanner.nextLine();
+                switch (op) {
                     case "Termica":
                         System.out.println(" ** Celcius a Fahrenheit **");
                         System.out.println(" * Ingrese los grados Celcius *");
@@ -27,9 +27,12 @@ public class Metrosapiesdistancia {
                         convertir(gradosC);
                         break;
                     case "Distancia":
-                        System.out.println(" ** Metros a Pies **");
-                        System.out.println(" * Ingrese los metros *");
+                        System.out.println(source:"Metros a Pies");
+                        double metro = source.nextDouble();
+                        double convertir = metro * 3.28084;
+                        System.out.println(convertir + "pies");
+                        break;
                 }
-                while (opcion == "Salir");
+                } while (op == "Salir");
             }
         }
