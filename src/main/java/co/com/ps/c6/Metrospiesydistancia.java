@@ -1,5 +1,5 @@
 package co.com.ps.c6;
-packege java*;
+
 import java.util.Scanner;
 public class Metrosapiesdistancia {
     public class ConversorUnidades {
@@ -11,14 +11,14 @@ public class Metrosapiesdistancia {
             Scanner scanner = new Scanner(System.in);
             int contador = 0;
 
-            char (op);
+            iS op;
             do {
                 System.out.println(" ** Bienvenido **");
                 System.out.println();
                 System.out.println(" ** Escriba la opción que desea **");
                 System.out.println(" * Termica (Celcius a Fahrenheit) *");
                 System.out.println(" * Distancia (Metros a Pies)*");
-                op = scanner.nextLine();
+                op = scanner.next;
                 switch (op) {
                     case "Termica":
                         System.out.println(" ** Celcius a Fahrenheit **");
