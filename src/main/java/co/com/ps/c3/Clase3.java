@@ -13,7 +13,7 @@ public class Clase3 {
         System.out.println("Su nombre es: "+nombre+ " y su edad es: "+edad+" anios Bienvenido");
 
         Persona persona = new Persona();
-        persona.setEdad(23);
+        //persona.setEdad(23);
         persona.setNombre("Oscar");
     }
 }

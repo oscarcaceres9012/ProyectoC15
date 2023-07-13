@@ -1,5 +1,5 @@
 package co.com.ps.c5;
-
+import java.util.*;
 public class Promedioclase {
     public static void main(String[] args) {
         int numEstudiantes = 5;
@@ -15,7 +15,7 @@ public class Promedioclase {
 
         int suma = 0;
         for (int nota: notas) {
-            Suma += nota;
+            suma += nota;
         }
         double promedio = (double) suma / numEstudiantes;
 

@@ -2,19 +2,22 @@ package co.com.ps.c4;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Estudiantenombrenota {
+public class Estudiantenombreynota {
     public static void main(String[] args) {
-        Scanner scanners= new Scanner (System.in);
+        Scanner scanners = new Scanner(System.in);
         System.out.println("Por favor ingrese la nota del estudiante");
-        Scanner scaner;
-        int nota = scaner.nextInt();
+       // Scanner scanners;
+        int nota = scanners.nextInt();
         if (nota > 3) {
             System.out.println("El estudiante gano la materia");
-        } else if (nota < 3){
+        } else if (nota < 3) {
             System.out.println("El estudiante perdió la materia");
         }
-        Object elsef;
+       /*
+         Object elsef;
         elsef{
-            System.out.println("Nota Nó Valida");}
+          System.out.println("Nota Nó Valida");}
+        */
     }
+
 }

@@ -1,7 +1,7 @@
 package co.com.ps.c6;
 import java.util.Scanner;
 
-public class Metrosapiesdistancia {
+public class Ejerciciofinaljaval {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int contador;
